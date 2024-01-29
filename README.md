@@ -1,9 +1,7 @@
 # iisLogFileReader
 
-Aktuell liest der
-
 ## Backend starten
-  1. Log-Dateien von `./examples` nach `C:\ExampleLogFiles` kopieren - Leider liest das Backend gegenw‰rtig nur das erste Logfile in diesem Verzeichnis.
+  1. Log-Dateien von `./examples` nach `C:\ExampleLogFiles` kopieren - Leider liest das Backend gegenw√§rtig nur das erste Logfile in diesem Verzeichnis.
   2. `./IisLogFileReader.sln` debuggen
 
 ## Frontend starten
