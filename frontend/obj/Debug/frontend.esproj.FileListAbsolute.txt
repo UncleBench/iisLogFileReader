@@ -1,0 +1,2 @@
+E:\repos\IisLogFileReader\frontend\obj\Debug\frontend.esproj.CoreCompileInputs.cache
+E:\iisLogFileReader\frontend\obj\Debug\frontend.esproj.CoreCompileInputs.cache
