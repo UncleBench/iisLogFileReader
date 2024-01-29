@@ -1,6 +1,0 @@
-E:\iisLogFileReader\IisLogFileParser\bin\Debug\IisLogFileParser.dll
-E:\iisLogFileReader\IisLogFileParser\bin\Debug\IisLogFileParser.pdb
-E:\iisLogFileReader\IisLogFileParser\obj\Debug\IisLogFileParser.csproj.AssemblyReference.cache
-E:\iisLogFileReader\IisLogFileParser\obj\Debug\IisLogFileParser.csproj.CoreCompileInputs.cache
-E:\iisLogFileReader\IisLogFileParser\obj\Debug\IisLogFileParser.dll
-E:\iisLogFileReader\IisLogFileParser\obj\Debug\IisLogFileParser.pdb
