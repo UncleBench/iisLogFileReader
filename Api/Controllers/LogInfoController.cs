@@ -5,6 +5,8 @@ using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using System.IO;
+using System.Linq;
 
 namespace Api.LogInfoControllers
 {
@@ -21,7 +23,7 @@ namespace Api.LogInfoControllers
     public async Task<JObject> Get()
     {
       // Todo: Chunked file upload in frontend...
-      var result = await _logFileParser.Parse(new System.IO.FileInfo("E:\\Downloads\\INGTES-Assessment-DE\\u_ex201203.log"));
+      var result = await _logFileParser.Parse(new FileInfo(Directory.GetFiles(Path.Combine(@"C:\ExampleLogFiles"), "*.log").First()));
       var model = new LogInfoViewModel
       {
         LogEntries = result
@@ -31,9 +33,8 @@ namespace Api.LogInfoControllers
       {
         ContractResolver = new CamelCasePropertyNamesContractResolver()
       };
-      var jobj = JObject.FromObject(model, serializer);
 
-      return jobj;
+      return JObject.FromObject(model, serializer);
     }
   }
 }
